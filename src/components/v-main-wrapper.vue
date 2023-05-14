@@ -23,9 +23,9 @@ export default {
             title: 'Main wrapeer'
         }
     },
-    computed: {},
-    methods: {},
-    watch: {},
+    computed: {}, //вычисление с компонентов
+    methods: {}, //clicks, run animation, modal window
+    watch: {}, //следить за изменениями чего либо и делать
     mounted() {
         console.log('Hello I am Iron Man')
     }
@@ -35,10 +35,7 @@ export default {
 
 <style>
 .v-main-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     max-width: 900px;
     margin: 0 auto;
 }
